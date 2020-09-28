@@ -23,5 +23,6 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'SWIFT_VERSION' => '5.0',
     'SWIFT_WHOLE_MODULE_OPTIMIZATION' => 'YES',
+    'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
   }
 end
